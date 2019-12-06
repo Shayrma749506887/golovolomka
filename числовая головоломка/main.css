@@ -1,0 +1,17 @@
+#MyCont{
+	display: flex;
+	flex-direction: row;
+	border: 10px dotted orange;
+}
+div{
+	font-size: 80px;
+	border: 10px dotted orange;
+}
+#child1{
+	display: flex;
+	align-self: flex-start;
+}
+#child2{
+    display: flex;
+	align-self: flex-end;
+}
