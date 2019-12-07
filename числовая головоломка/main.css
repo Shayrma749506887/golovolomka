@@ -1,6 +1,4 @@
 #MyCont{
-	display: flex;
-	flex-direction: row;
 	border: 10px dotted orange;
 }
 div{
@@ -9,9 +7,28 @@ div{
 }
 #child1{
 	display: flex;
-	align-self: flex-start;
+	flex-direction: row;
+	margin-left: 0px;
+	margin-right: 1729px;
+	float: left;
+	float: right;
 }
 #child2{
     display: flex;
+	flex-direction: row;
+	margin-right: 1650px;
+	margin-left: 66px;
+	float: right;
+}
+#child3{
+	display: flex;
+	flex-direction: row;
+    margin-right: 1262px;
+    align-self: flex-end;
+}
+#childe4{
+	display: flex;
+	flex-direction: row;
+	margin-right: 1962px;
 	align-self: flex-end;
 }
